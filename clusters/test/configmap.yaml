@@ -35,6 +35,12 @@ data:
           defaultStorageClass:
             availabilityZone: europe-nl-ams1
             volumeType: unencrypted
+        csiManila:
+          enabled: true
+
+      csi:
+        cephfs:
+          enabled: true
 
       # Enable the monitoring stack
       monitoring:
