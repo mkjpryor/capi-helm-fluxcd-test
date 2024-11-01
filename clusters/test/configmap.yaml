@@ -23,7 +23,7 @@ data:
     nodeGroups:
       - name: md-0
         machineFlavor: ec1.medium
-        machineCount: 3
+        machineCount: 2
 
     addons:
       # Use the cilium CNI
